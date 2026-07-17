@@ -1,5 +1,15 @@
 <?php
 session_start();
+echo "<pre>";
+print_r($_SESSION);
+echo "</pre>";
+if(!isset($_SESSION['user_id'])){
+
+    header("Location: login.php");
+
+    exit();
+
+}
 include 'includes/db.php';
 
 if(isset($_POST['saveSurvey'])){

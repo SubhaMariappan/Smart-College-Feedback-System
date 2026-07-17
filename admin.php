@@ -30,17 +30,17 @@ Admin Panel
 
 <ul>
 
-<li><a href="#"><i class="fa-solid fa-house"></i> Dashboard</a></li>
+<li><a href="admin.php"><i class="fa-solid fa-house"></i> Dashboard</a></li>
 
-<li><a href="#"><i class="fa-solid fa-plus"></i> Create Feedback</a></li>
+<li><a href="createSurvey.php"><i class="fa-solid fa-plus"></i> Create Feedback</a></li>
 
-<li><a href="#"><i class="fa-solid fa-list"></i> Manage Feedback</a></li>
+<li><a href="survey.php"><i class="fa-solid fa-list"></i> Manage Feedback</a></li>
 
-<li><a href="#"><i class="fa-solid fa-chart-column"></i> Analytics</a></li>
+<li><a href="analytics.php"><i class="fa-solid fa-chart-column"></i> Analytics</a></li>
 
-<li><a href="#"><i class="fa-solid fa-users"></i> Students</a></li>
+<li><a href="responses.php"><i class="fa-solid fa-users"></i> Responses</a></li>
 
-<li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+<li><a href="logout.php"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
 
 </ul>
 
