@@ -21,13 +21,39 @@ if(isset($_POST['saveSurvey'])){
 
     if(mysqli_query($conn,$sql)){
 
-        echo "<script>alert('Survey Created Successfully');</script>";
+    $survey_id = mysqli_insert_id($conn);
 
-    }else{
+    if(isset($_POST['question'])){
 
-        echo "<script>alert('Error Creating Survey');</script>";
+        foreach($_POST['question'] as $index => $question){
+
+            $question_type = $_POST['question_type'][$index];
+            $option1 = $_POST['option1'][$index];
+            $option2 = $_POST['option2'][$index];
+            $option3 = $_POST['option3'][$index];
+            $option4 = $_POST['option4'][$index];
+
+            $query = "INSERT INTO survey_questions
+            (survey_id,question,question_type,option1,option2,option3,option4)
+
+            VALUES
+
+            ('$survey_id','$question','$question_type',
+            '$option1','$option2','$option3','$option4')";
+
+            mysqli_query($conn,$query);
+
+        }
 
     }
+
+    echo "<script>alert('Survey Created Successfully');</script>";
+
+}else{
+
+    echo mysqli_error($conn);
+
+}
 
 }
 ?>
@@ -136,12 +162,14 @@ required>
 
 <label>Question</label>
 
-<input type="text"
+<input
+type="text"
+name="question[]"
 placeholder="Enter Question">
 
 <label>Question Type</label>
 
-<select>
+<select name="question_type[]">
 
 <option>Multiple Choice</option>
 
@@ -153,19 +181,27 @@ placeholder="Enter Question">
 
 <label>Option 1</label>
 
-<input type="text">
+<input
+type="text"
+name="option1[]">
 
 <label>Option 2</label>
 
-<input type="text">
+<input
+type="text"
+name="option2[]">
 
 <label>Option 3</label>
 
-<input type="text">
+<input
+type="text"
+name="option3[]">
 
 <label>Option 4</label>
 
-<input type="text">
+<input
+type="text"
+name="option4[]">
 
 <button type="button">
 + Add Another Question

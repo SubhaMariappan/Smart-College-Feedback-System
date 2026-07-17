@@ -9,13 +9,11 @@ if(isset($_POST['register'])){
     $password = $_POST['password'];
     $confirm_password = $_POST['confirm_password'];
 
-    // Check password match
     if($password != $confirm_password){
         echo "<script>alert('Passwords do not match');</script>";
     }
     else{
 
-        // Check duplicate email
         $check = mysqli_query($conn,"SELECT * FROM users WHERE email='$email'");
 
         if(mysqli_num_rows($check) > 0){
@@ -24,10 +22,8 @@ if(isset($_POST['register'])){
 
         }else{
 
-            // Hash password
             $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
-            // Insert student
             $sql = "INSERT INTO users(name,email,password,role)
                     VALUES('$name','$email','$hashedPassword','Student')";
 

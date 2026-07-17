@@ -15,7 +15,7 @@ if(isset($_POST['login'])){
 
         $user = mysqli_fetch_assoc($result);
 
-        // Check hashed password
+        
         if (
             password_verify($password, $user['password']) ||
             $password === $user['password']
@@ -68,8 +68,6 @@ if(isset($_POST['login'])){
 
 <body>
 
-<!-- Navigation -->
-
 <nav>
 
 <div class="logo">
@@ -82,8 +80,6 @@ if(isset($_POST['login'])){
 </ul>
 
 </nav>
-
-<!-- Login Form -->
 
 <section class="form-section">
 
