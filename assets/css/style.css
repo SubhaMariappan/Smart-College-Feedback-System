@@ -585,9 +585,7 @@ table button:hover{
 background:#1d4ed8;
 
 }
-/* ===========================
-   Create Feedback Form
-=========================== */
+
 
 .create-container{
 
@@ -662,4 +660,36 @@ cursor:pointer;
 
 background:#1d4ed8;
 
+}
+
+.survey-card{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    margin:20px 0;
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+.survey-card h2{
+    color:#2f5bea;
+    margin-bottom:15px;
+}
+
+.survey-card p{
+    margin:8px 0;
+}
+
+.survey-card button{
+    margin-top:15px;
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    background:#2f5bea;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.survey-card button:hover{
+    background:#1f46c7;
 }
