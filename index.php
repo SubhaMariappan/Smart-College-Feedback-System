@@ -16,41 +16,89 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 
 <body>
 
-
 <nav>
 
 <div class="logo">
 <i class="fa-solid fa-graduation-cap"></i>
-College Feedback
+<span>Smart College Feedback</span>
 </div>
 
 <ul>
 
 <li><a href="#">Home</a></li>
+
 <li><a href="#features">Features</a></li>
+
+<li><a href="#workflow">How It Works</a></li>
+
 <li><a href="#about">About</a></li>
-<li><a href="register.php">Register</a></li>
-<li><a href="login.php">Login</a></li>
+<!--
+<li><a href="#contact">Contact</a></li>
+-->
+<li><a href="register.php" class="nav-btn register-btn">Register</a></li>
+
+<li><a href="login.php" class="nav-btn login-btn">Login</a></li>
 
 </ul>
 
 </nav>
 
-
 <section class="hero">
 
 <div class="hero-text">
 
-<h1>Smart College Feedback
-& Survey Management System</h1>
+<h4>Digital Feedback Platform</h4>
+
+<h1>
+Smart College Feedback &
+Survey Management System
+</h1>
 
 <p>
-Collect feedback from students regarding faculty, courses, placement training, events and campus facilities.
+
+Collect and analyze student feedback for faculty, courses, placement training, campus facilities, and college events through one centralized platform.
+
 </p>
 
-<a href="register.php" class="btn">
-Student Login
+<div class="hero-buttons">
+
+<a href="login.php" class="btn">
+Login
 </a>
+
+<a href="register.php" class="btn secondary-btn">
+Register
+</a>
+
+</div>
+
+<div class="hero-highlights">
+
+<div>
+
+<i class="fa-solid fa-check"></i>
+
+Faculty Feedback
+
+</div>
+
+<div>
+
+<i class="fa-solid fa-check"></i>
+
+Course Evaluation
+
+</div>
+
+<div>
+
+<i class="fa-solid fa-check"></i>
+
+Campus Survey
+
+</div>
+
+</div>
 
 </div>
 
@@ -62,7 +110,41 @@ Student Login
 
 </section>
 
+<section class="stats">
 
+<div class="stat-box">
+
+<h2>5000+</h2>
+
+<p>Feedback Responses</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>150+</h2>
+
+<p>Surveys Conducted</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>12</h2>
+
+<p>Departments</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>95%</h2>
+
+<p>Student Satisfaction</p>
+
+</div>
+
+</section>
 
 <!-- Features -->
 
@@ -119,7 +201,45 @@ Student Login
 
 </section>
 
+</section>
 
+<!-- How It Works -->
+
+<section id="workflow">
+
+<h2>How It Works</h2>
+
+<div class="workflow-container">
+
+<div class="workflow-card">
+<i class="fa-solid fa-user-plus"></i>
+<h3>1. Register</h3>
+<p>Create an account as a student or administrator.</p>
+</div>
+
+<div class="workflow-card">
+<i class="fa-solid fa-file-circle-plus"></i>
+<h3>2. Create Survey</h3>
+<p>Administrators create surveys for faculty, courses, events and facilities.</p>
+</div>
+
+<div class="workflow-card">
+<i class="fa-solid fa-clipboard-check"></i>
+<h3>3. Submit Feedback</h3>
+<p>Students answer surveys easily through an online interface.</p>
+</div>
+
+<div class="workflow-card">
+<i class="fa-solid fa-chart-line"></i>
+<h3>4. Analyze Results</h3>
+<p>Administrators view reports and analytics for better decision making.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- About -->
 
 <!-- About -->
 
