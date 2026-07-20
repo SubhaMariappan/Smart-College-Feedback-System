@@ -201,8 +201,6 @@ Campus Survey
 
 </section>
 
-</section>
-
 <!-- How It Works -->
 
 <section id="workflow">
@@ -238,8 +236,6 @@ Campus Survey
 </div>
 
 </section>
-
-<!-- About -->
 
 <!-- About -->
 
