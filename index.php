@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Smart College Feedback & Survey Management System</title>
+<title>Evalio | Smart Feedback. Better Education.</title>
 <link rel="stylesheet" href="assets/css/style.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +19,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 <nav>
 
 <div class="logo">
-<i class="fa-solid fa-graduation-cap"></i>
-<span>Smart College Feedback</span>
+<i class="fa-solid fa-chart-line"></i>
+<span>Evalio</span>
 </div>
 
 <ul>
@@ -35,10 +35,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 <!--
 <li><a href="#contact">Contact</a></li>
 -->
-<li><a href="register.php" class="nav-btn register-btn">Register</a></li>
+<li>
+    <a href="login.php" class="nav-btn">
+        Login
+    </a>
+</li>
 
-<li><a href="login.php" class="nav-btn login-btn">Login</a></li>
-
+<li>
+    <a href="register.php" class="nav-btn login-btn">
+        Register
+    </a>
+</li>
 </ul>
 
 </nav>
@@ -46,19 +53,19 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 <section class="hero">
 
 <div class="hero-text">
-
-<h4>Digital Feedback Platform</h4>
+    <span class="hero-badge">
+        <i class="fa-solid fa-shield-halved"></i>
+        Trusted Campus Feedback Platform
+    </span>
+<h4>Welcome to Evalio</h4>
 
 <h1>
-Smart College Feedback &
-Survey Management System
+Smarter Surveys. Better Decisions.
 </h1>
 
 <p>
-
-Collect and analyze student feedback for faculty, courses, placement training, campus facilities, and college events through one centralized platform.
-
-</p>
+Evalio is a smart campus feedback platform that enables colleges to collect, manage, and analyze student feedback efficiently. Improve teaching quality, campus services, and student satisfaction through meaningful insights.
+</p> 
 
 <div class="hero-buttons">
 
@@ -160,7 +167,7 @@ Campus Survey
 
 <h3>Faculty Feedback</h3>
 
-<p>Create unlimited surveys with multiple question types.</p>
+<p>Create structured faculty evaluation surveys with customizable questions.</p>
 
 </div>
 
@@ -171,7 +178,7 @@ Campus Survey
 
 <h3>Course Feedback</h3>
 
-<p>View responses through charts and reports.</p>
+<p>Measure course effectiveness through detailed student responses.</p>
 
 </div>
 
@@ -182,7 +189,7 @@ Campus Survey
 
 <h3>Campus Facilities</h3>
 
-<p>Share survey links with anyone instantly.</p>
+<p>Gather feedback on laboratories, libraries, transport, and infrastructure.</p>
 
 </div>
 
@@ -193,7 +200,7 @@ Campus Survey
 
 <h3>Analytics Dashboard</h3>
 
-<p>Download survey reports as CSV and PDF.</p>
+<p>Visualize survey results using interactive charts and downloadable reports.</p>
 
 </div>
 
@@ -244,10 +251,7 @@ Campus Survey
 <h2>About Project</h2>
 
 <p>
-
-Smart College Feedback & Survey Management System is designed to collect feedback from students regarding academics, faculty, infrastructure and college activities.
-
-The system helps administrators analyse responses and improve the quality of education.
+Evalio is an intelligent campus feedback platform designed to help educational institutions collect, manage, and analyze student feedback efficiently. It empowers administrators with real-time insights to improve teaching quality, campus services, and overall student satisfaction.
 </p>
 
 </section>
@@ -257,7 +261,7 @@ The system helps administrators analyse responses and improve the quality of edu
 
 <p>
 
-©2026 Smart College Feedback & Survey Management System
+© 2026 Evalio. Built for Smarter Campus Feedback.
 
 </p>
 
